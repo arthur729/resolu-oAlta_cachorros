@@ -27,42 +27,43 @@ export default {
 <style>
 /* Centraliza o corpo da página */
 body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f5f5f5; /* Fundo mais claro */
+  color: #333;
+  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh; /* Ajuste para ocupar a altura total da tela */
-  margin: 0;
+  min-height: 100vh;
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 80%; /* Ajuste conforme necessário */
+  max-width: 800px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow:  0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
 }
 
 .item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 20px;
-}
-
-.pequena-imagem {
-  width: 500px;
-  height: auto;
-  margin-bottom: 10px; /* Espaço entre a imagem e o texto */
-  border-radius: 15px; /* Arredonda as bordas da imagem */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra sutil */
+  margin-bottom: 40px;
+  text-align: center;
 }
 
 .title {
-  font-size: 24px;
-  margin-bottom: 10px;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 15px;
 }
 
 .description {
-  font-size: 16px;
-  text-align: center;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.pequena-imagem {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 </style>
