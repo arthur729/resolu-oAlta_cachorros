@@ -1,5 +1,5 @@
 {
-  "name": "desafio_otimizacao",
+  "name": "trabalho_treino",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,9 +8,14 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@google/generative-ai": "^0.16.0",
+    "body-parser": "^1.20.3",
     "core-js": "^3.8.3",
-    "vue": "^3.2.13",
-    "vue-lazyload": "^3.0.0"
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "mongodb": "^6.8.0",
+    "mongoose": "^8.6.2",
+    "vue": "^3.2.13"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",

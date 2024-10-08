@@ -1,4 +1,4 @@
-# desafio_otimizacao
+# trabalho_treino
 
 ## Project setup
 ```
